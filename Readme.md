@@ -17,7 +17,7 @@ python3 fenics_burger1D.py
 
 ```
 cd src
-python Loop.py --prjct_dir /path to this repository/GrADE  --epochs 800
+python Loop.py --prjct_dir /<path_to_this_repository>/GrADE  --epochs 800
 ```
 
 ## Citation
