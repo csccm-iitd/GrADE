@@ -6,10 +6,11 @@
 
 ## Quick Start
 
-### Training AR-DenseED
+### Training Burgers1d
 
 ```
-python main.py --epochs 100
+cd src
+python Loop.py --epochs 100
 ```
 
 ## Citation
