@@ -1,0 +1,939 @@
+
+*********************************************************************************************
+                          experiment name: lit_train__lit_test_1d_trial
+*********************************************************************************************
+
+learning rate: 0.07
+niters: 201
+continuous_in: t
+Basis: None
+Number of Basis: 1
+stencil: 5
+train_batch_size: 30
+data loaded 
+Number of training graphs: 140
+Number of test graphs: 30
+Net(
+  (activation): LeakyReLU(negative_slope=0.2)
+  (basisfunc): Polynomial()
+  (conv): ModuleDict(
+    (1): GATConv(1, 1, heads=1)
+    (2): GATConv(1, 1, heads=1)
+    (3): linear(
+      (basisfunc): Polynomial()
+      (activation): LeakyReLU(negative_slope=0.2)
+    )
+    (4): linear(
+      (basisfunc): Polynomial()
+      (activation): LeakyReLU(negative_slope=0.2)
+    )
+  )
+)
++-----------------+------------+
+|     Modules     | Parameters |
++-----------------+------------+
+| conv.1.coeffs.1 |     64     |
+| conv.1.coeffs.2 |     33     |
+| conv.2.coeffs.1 |     64     |
+| conv.2.coeffs.2 |     33     |
+|  conv.3.coeffs  |    160     |
+|  conv.4.coeffs  |     33     |
++-----------------+------------+
+Total Trainable Params: 387
+
+*********************************************************************************************
+                          experiment name: lit_train__lit_test_1d_trial
+*********************************************************************************************
+
+learning rate: 0.07
+niters: 201
+continuous_in: t
+Basis: None
+Number of Basis: 1
+stencil: 5
+train_batch_size: 30
+data loaded 
+Number of training graphs: 140
+Number of test graphs: 30
+Net(
+  (activation): LeakyReLU(negative_slope=0.2)
+  (basisfunc): Polynomial()
+  (conv): ModuleDict(
+    (1): GATConv(1, 1, heads=1)
+    (2): GATConv(1, 1, heads=1)
+    (3): linear(
+      (basisfunc): Polynomial()
+      (activation): LeakyReLU(negative_slope=0.2)
+    )
+    (4): linear(
+      (basisfunc): Polynomial()
+      (activation): LeakyReLU(negative_slope=0.2)
+    )
+  )
+)
++-----------------+------------+
+|     Modules     | Parameters |
++-----------------+------------+
+| conv.1.coeffs.1 |     64     |
+| conv.1.coeffs.2 |     33     |
+| conv.2.coeffs.1 |     64     |
+| conv.2.coeffs.2 |     33     |
+|  conv.3.coeffs  |    160     |
+|  conv.4.coeffs  |     33     |
++-----------------+------------+
+Total Trainable Params: 387
+
+*********************************************************************************************
+                          experiment name: lit_train__lit_test_1d_trial
+*********************************************************************************************
+
+learning rate: 0.07
+niters: 201
+continuous_in: t
+Basis: None
+Number of Basis: 1
+stencil: 5
+train_batch_size: 30
+data loaded 
+Number of training graphs: 140
+Number of test graphs: 30
+Net(
+  (activation): LeakyReLU(negative_slope=0.2)
+  (basisfunc): Polynomial()
+  (conv): ModuleDict(
+    (1): GATConv(1, 1, heads=1)
+    (2): GATConv(1, 1, heads=1)
+    (3): linear(
+      (basisfunc): Polynomial()
+      (activation): LeakyReLU(negative_slope=0.2)
+    )
+    (4): linear(
+      (basisfunc): Polynomial()
+      (activation): LeakyReLU(negative_slope=0.2)
+    )
+  )
+)
++-----------------+------------+
+|     Modules     | Parameters |
++-----------------+------------+
+| conv.1.coeffs.1 |     64     |
+| conv.1.coeffs.2 |     33     |
+| conv.2.coeffs.1 |     64     |
+| conv.2.coeffs.2 |     33     |
+|  conv.3.coeffs  |    160     |
+|  conv.4.coeffs  |     33     |
++-----------------+------------+
+Total Trainable Params: 387
+Epoch: 00, Loss: 0.2769, intgrtd_t: 4, lr: 0.0700, time: 1.0714
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+Epoch: 01, Loss: 0.2781, intgrtd_t: 4, lr: 0.0700, time: 1.9782
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+Epoch: 02, Loss: 0.2768, intgrtd_t: 4, lr: 0.0700, time: 2.9191
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+Epoch: 03, Loss: 0.2755, intgrtd_t: 4, lr: 0.0700, time: 3.8672
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+Epoch: 04, Loss: 0.2668, intgrtd_t: 4, lr: 0.0700, time: 4.8168
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+Epoch: 05, Loss: 0.2447, intgrtd_t: 4, lr: 0.0700, time: 5.7654
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+Epoch: 06, Loss: 0.2088, intgrtd_t: 4, lr: 0.0700, time: 6.7234
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+Epoch: 07, Loss: 0.1603, intgrtd_t: 4, lr: 0.0700, time: 7.6559
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+Epoch: 08, Loss: 0.1405, intgrtd_t: 4, lr: 0.0700, time: 8.6040
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+Epoch: 09, Loss: 0.1214, intgrtd_t: 4, lr: 0.0700, time: 9.5557
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+Epoch: 10, Loss: 0.1111, intgrtd_t: 4, lr: 0.0700, time: 10.5156
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+Epoch: 11, Loss: 0.1046, intgrtd_t: 4, lr: 0.0700, time: 11.4495
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+Epoch: 12, Loss: 0.1122, intgrtd_t: 4, lr: 0.0700, time: 12.3979
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+Epoch: 13, Loss: 0.0986, intgrtd_t: 4, lr: 0.0700, time: 13.3495
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+Epoch: 14, Loss: 0.1024, intgrtd_t: 4, lr: 0.0700, time: 14.3194
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+Epoch: 15, Loss: 0.0952, intgrtd_t: 4, lr: 0.0700, time: 15.2763
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+Epoch: 16, Loss: 0.0930, intgrtd_t: 4, lr: 0.0700, time: 16.2293
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+Epoch: 17, Loss: 0.0886, intgrtd_t: 4, lr: 0.0700, time: 17.1944
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+Epoch: 18, Loss: 0.0832, intgrtd_t: 4, lr: 0.0700, time: 18.1679
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+Epoch: 19, Loss: 0.0811, intgrtd_t: 4, lr: 0.0700, time: 19.1390
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+Epoch: 20, Loss: 0.0763, intgrtd_t: 4, lr: 0.0700, time: 20.0796
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+Epoch: 21, Loss: 0.0744, intgrtd_t: 4, lr: 0.0700, time: 21.0357
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+Epoch: 22, Loss: 0.0696, intgrtd_t: 4, lr: 0.0700, time: 21.9819
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+
+*********************************************************************************************
+                          experiment name: lit_train__lit_test_1d_trial
+*********************************************************************************************
+
+learning rate: 0.07
+niters: 201
+continuous_in: t
+Basis: None
+Number of Basis: 1
+stencil: 5
+train_batch_size: 30
+data loaded 
+Number of training graphs: 140
+Number of test graphs: 30
+Net(
+  (activation): LeakyReLU(negative_slope=0.2)
+  (basisfunc): Polynomial()
+  (conv): ModuleDict(
+    (1): GATConv(1, 1, heads=1)
+    (2): GATConv(1, 1, heads=1)
+    (3): linear(
+      (basisfunc): Polynomial()
+      (activation): LeakyReLU(negative_slope=0.2)
+    )
+    (4): linear(
+      (basisfunc): Polynomial()
+      (activation): LeakyReLU(negative_slope=0.2)
+    )
+  )
+)
++-----------------+------------+
+|     Modules     | Parameters |
++-----------------+------------+
+| conv.1.coeffs.1 |     64     |
+| conv.1.coeffs.2 |     33     |
+| conv.2.coeffs.1 |     64     |
+| conv.2.coeffs.2 |     33     |
+|  conv.3.coeffs  |    160     |
+|  conv.4.coeffs  |     33     |
++-----------------+------------+
+Total Trainable Params: 387
+Epoch: 00, Loss: 0.2769, intgrtd_t: 4, lr: 0.0700, time: 0.9102
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+Epoch: 01, Loss: 0.2781, intgrtd_t: 4, lr: 0.0700, time: 1.6127
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+Epoch: 02, Loss: 0.2768, intgrtd_t: 4, lr: 0.0700, time: 2.3486
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+using previously processed train target data
+Epoch: 03, Loss: 0.2756, intgrtd_t: 4, lr: 0.0700, time: 3.0992
+using previously processed train target data
+
+*********************************************************************************************
+                          experiment name: lit_train__lit_test_1d_trial
+*********************************************************************************************
+
+learning rate: 0.07
+niters: 201
+continuous_in: t
+Basis: None
+Number of Basis: 1
+stencil: 5
+train_batch_size: 30
+data loaded 
+Number of training graphs: 140
+Number of test graphs: 30
+Net(
+  (activation): LeakyReLU(negative_slope=0.2)
+  (basisfunc): Polynomial()
+  (conv): ModuleDict(
+    (1): GATConv(1, 1, heads=1)
+    (2): GATConv(1, 1, heads=1)
+    (3): linear(
+      (basisfunc): Polynomial()
+      (activation): LeakyReLU(negative_slope=0.2)
+    )
+    (4): linear(
+      (basisfunc): Polynomial()
+      (activation): LeakyReLU(negative_slope=0.2)
+    )
+  )
+)
++-----------------+------------+
+|     Modules     | Parameters |
++-----------------+------------+
+| conv.1.coeffs.1 |     64     |
+| conv.1.coeffs.2 |     33     |
+| conv.2.coeffs.1 |     64     |
+| conv.2.coeffs.2 |     33     |
+|  conv.3.coeffs  |    160     |
+|  conv.4.coeffs  |     33     |
++-----------------+------------+
+Total Trainable Params: 387
+Epoch: 00, Loss: 0.2769, intgrtd_t: 4, lr: 0.0700, time: 1.1082
+Epoch: 01, Loss: 0.2781, intgrtd_t: 4, lr: 0.0700, time: 1.9926
+Epoch: 02, Loss: 0.2768, intgrtd_t: 4, lr: 0.0700, time: 2.9100
+Epoch: 03, Loss: 0.2755, intgrtd_t: 4, lr: 0.0700, time: 3.8404
+Epoch: 04, Loss: 0.2668, intgrtd_t: 4, lr: 0.0700, time: 4.7681
+Epoch: 05, Loss: 0.2448, intgrtd_t: 4, lr: 0.0700, time: 5.6955
+Epoch: 06, Loss: 0.2092, intgrtd_t: 4, lr: 0.0700, time: 6.6294
+Epoch: 07, Loss: 0.1605, intgrtd_t: 4, lr: 0.0700, time: 7.5584
+Epoch: 08, Loss: 0.1411, intgrtd_t: 4, lr: 0.0700, time: 8.4872
+Epoch: 09, Loss: 0.1222, intgrtd_t: 4, lr: 0.0700, time: 9.4216
+Epoch: 10, Loss: 0.1116, intgrtd_t: 4, lr: 0.0700, time: 10.3512
+Epoch: 11, Loss: 0.1045, intgrtd_t: 4, lr: 0.0700, time: 11.2771
+Epoch: 12, Loss: 0.1122, intgrtd_t: 4, lr: 0.0700, time: 12.2062
+Epoch: 13, Loss: 0.0983, intgrtd_t: 4, lr: 0.0700, time: 13.1438
+Epoch: 14, Loss: 0.1026, intgrtd_t: 4, lr: 0.0700, time: 14.0753
+Epoch: 15, Loss: 0.0944, intgrtd_t: 4, lr: 0.0700, time: 15.0037
+Epoch: 16, Loss: 0.0932, intgrtd_t: 4, lr: 0.0700, time: 15.9318
+Epoch: 17, Loss: 0.0884, intgrtd_t: 4, lr: 0.0700, time: 16.8607
+Epoch: 18, Loss: 0.0836, intgrtd_t: 4, lr: 0.0700, time: 17.7977
+Epoch: 19, Loss: 0.0812, intgrtd_t: 4, lr: 0.0700, time: 18.7316
+Epoch: 20, Loss: 0.0761, intgrtd_t: 4, lr: 0.0700, time: 19.6612
+Epoch: 21, Loss: 0.0745, intgrtd_t: 4, lr: 0.0700, time: 20.5905
+Epoch: 22, Loss: 0.0697, intgrtd_t: 4, lr: 0.0700, time: 21.5177
+Epoch: 23, Loss: 0.0672, intgrtd_t: 4, lr: 0.0700, time: 22.4506
+Epoch: 24, Loss: 0.0638, intgrtd_t: 4, lr: 0.0700, time: 23.3802
+Epoch: 25, Loss: 0.0607, intgrtd_t: 4, lr: 0.0700, time: 24.3101
+Epoch: 26, Loss: 0.0579, intgrtd_t: 4, lr: 0.0700, time: 25.2394
+Epoch: 27, Loss: 0.0548, intgrtd_t: 4, lr: 0.0700, time: 26.1664
+Epoch: 28, Loss: 0.0520, intgrtd_t: 4, lr: 0.0700, time: 27.1018
+Epoch: 29, Loss: 0.0492, intgrtd_t: 4, lr: 0.0700, time: 28.0315
+Epoch: 30, Loss: 0.0467, intgrtd_t: 4, lr: 0.0700, time: 28.9625
+Epoch: 31, Loss: 0.0445, intgrtd_t: 4, lr: 0.0700, time: 29.9091
+Epoch: 32, Loss: 0.0423, intgrtd_t: 4, lr: 0.0700, time: 30.8551
+Epoch: 33, Loss: 0.0404, intgrtd_t: 4, lr: 0.0700, time: 31.7890
+Epoch: 34, Loss: 0.0386, intgrtd_t: 4, lr: 0.0700, time: 32.7216
+Epoch: 35, Loss: 0.0370, intgrtd_t: 4, lr: 0.0700, time: 33.6570
+Epoch: 36, Loss: 0.0356, intgrtd_t: 4, lr: 0.0700, time: 34.5896
+Epoch: 37, Loss: 0.0343, intgrtd_t: 4, lr: 0.0700, time: 35.5210
+Epoch: 38, Loss: 0.0331, intgrtd_t: 4, lr: 0.0700, time: 36.4544
+Epoch: 39, Loss: 0.0319, intgrtd_t: 4, lr: 0.0700, time: 37.3860
+Epoch: 40, Loss: 0.0310, intgrtd_t: 4, lr: 0.0700, time: 38.3160
+Epoch: 41, Loss: 0.0302, intgrtd_t: 4, lr: 0.0700, time: 39.2478
+Epoch: 42, Loss: 0.0294, intgrtd_t: 4, lr: 0.0700, time: 40.1798
+Epoch: 43, Loss: 0.0287, intgrtd_t: 4, lr: 0.0700, time: 41.1107
+Epoch: 44, Loss: 0.0278, intgrtd_t: 4, lr: 0.0700, time: 42.0495
+Epoch: 45, Loss: 0.0270, intgrtd_t: 4, lr: 0.0700, time: 42.9747
+Epoch: 46, Loss: 0.0265, intgrtd_t: 4, lr: 0.0700, time: 43.9065
+Epoch: 47, Loss: 0.0259, intgrtd_t: 4, lr: 0.0700, time: 44.8360
+Epoch: 48, Loss: 0.0252, intgrtd_t: 4, lr: 0.0700, time: 45.7692
+Epoch: 49, Loss: 0.0245, intgrtd_t: 4, lr: 0.0700, time: 46.6982
+Epoch: 50, Loss: 0.0239, intgrtd_t: 4, lr: 0.0700, time: 48.0411
+RAM memory % used: 2.9 i:0
+RAM memory % used: 2.9 i:0
+Epoch: 50, test_Loss: 0.0115,  intgrtd_t: 3, lr: 0.0700, time: 1.5161 ***
+Epoch: 51, Loss: 0.0234, intgrtd_t: 4, lr: 0.0700, time: 49.1367
+Epoch: 52, Loss: 0.0229, intgrtd_t: 4, lr: 0.0700, time: 50.0656
+Epoch: 53, Loss: 0.0226, intgrtd_t: 4, lr: 0.0700, time: 50.9992
+Epoch: 54, Loss: 0.0223, intgrtd_t: 4, lr: 0.0700, time: 51.9303
+Epoch: 55, Loss: 0.0220, intgrtd_t: 4, lr: 0.0700, time: 52.8614
+Epoch: 56, Loss: 0.0215, intgrtd_t: 4, lr: 0.0700, time: 53.8030
+Epoch: 57, Loss: 0.0211, intgrtd_t: 4, lr: 0.0700, time: 54.7385
+Epoch: 58, Loss: 0.0208, intgrtd_t: 4, lr: 0.0700, time: 55.6718
+Epoch: 59, Loss: 0.0204, intgrtd_t: 4, lr: 0.0700, time: 56.6044
+Epoch: 60, Loss: 0.0202, intgrtd_t: 4, lr: 0.0700, time: 57.5361
+Epoch: 61, Loss: 0.0198, intgrtd_t: 4, lr: 0.0700, time: 58.4681
+Epoch: 62, Loss: 0.0196, intgrtd_t: 4, lr: 0.0700, time: 59.3984
+Epoch: 63, Loss: 0.0193, intgrtd_t: 4, lr: 0.0700, time: 60.3290
+Epoch: 64, Loss: 0.0191, intgrtd_t: 4, lr: 0.0700, time: 61.2638
+Epoch: 65, Loss: 0.0189, intgrtd_t: 4, lr: 0.0700, time: 62.1959
+Epoch: 66, Loss: 0.0188, intgrtd_t: 4, lr: 0.0700, time: 63.1273
+Epoch: 67, Loss: 0.0185, intgrtd_t: 4, lr: 0.0700, time: 64.0609
+Epoch: 68, Loss: 0.0183, intgrtd_t: 4, lr: 0.0700, time: 64.9953
+Epoch: 69, Loss: 0.0180, intgrtd_t: 4, lr: 0.0700, time: 65.9300
+Epoch: 70, Loss: 0.0177, intgrtd_t: 4, lr: 0.0700, time: 66.8643
+Epoch: 71, Loss: 0.0173, intgrtd_t: 4, lr: 0.0700, time: 67.7962
+Epoch: 72, Loss: 0.0170, intgrtd_t: 4, lr: 0.0700, time: 68.7265
+Epoch: 73, Loss: 0.0168, intgrtd_t: 4, lr: 0.0700, time: 69.6676
+Epoch: 74, Loss: 0.0165, intgrtd_t: 4, lr: 0.0700, time: 70.6090
+Epoch: 75, Loss: 0.0163, intgrtd_t: 4, lr: 0.0700, time: 71.5490
+Epoch: 76, Loss: 0.0162, intgrtd_t: 4, lr: 0.0700, time: 72.4842
+Epoch: 77, Loss: 0.0161, intgrtd_t: 4, lr: 0.0700, time: 73.4180
+Epoch: 78, Loss: 0.0161, intgrtd_t: 4, lr: 0.0700, time: 74.3522
+Epoch: 79, Loss: 0.0161, intgrtd_t: 4, lr: 0.0700, time: 75.2901
+Epoch: 80, Loss: 0.0161, intgrtd_t: 4, lr: 0.0700, time: 76.2244
+Epoch: 81, Loss: 0.0160, intgrtd_t: 4, lr: 0.0700, time: 77.1552
+Epoch: 82, Loss: 0.0160, intgrtd_t: 4, lr: 0.0700, time: 78.0871
+Epoch: 83, Loss: 0.0159, intgrtd_t: 4, lr: 0.0700, time: 79.0227
+Epoch: 84, Loss: 0.0159, intgrtd_t: 4, lr: 0.0700, time: 79.9581
+Epoch: 85, Loss: 0.0157, intgrtd_t: 4, lr: 0.0700, time: 80.8922
+Epoch: 86, Loss: 0.0157, intgrtd_t: 4, lr: 0.0700, time: 81.8250
+Epoch: 87, Loss: 0.0156, intgrtd_t: 4, lr: 0.0700, time: 82.7571
+Epoch: 88, Loss: 0.0157, intgrtd_t: 4, lr: 0.0700, time: 83.6925
+Epoch: 89, Loss: 0.0156, intgrtd_t: 4, lr: 0.0700, time: 84.6253
+Epoch: 90, Loss: 0.0157, intgrtd_t: 4, lr: 0.0700, time: 85.5606
+Epoch: 91, Loss: 0.0156, intgrtd_t: 4, lr: 0.0700, time: 86.4929
+Epoch: 92, Loss: 0.0156, intgrtd_t: 4, lr: 0.0700, time: 87.4248
+Epoch: 93, Loss: 0.0155, intgrtd_t: 4, lr: 0.0700, time: 88.3626
+Epoch: 94, Loss: 0.0154, intgrtd_t: 4, lr: 0.0700, time: 89.3009
+Epoch: 95, Loss: 0.0153, intgrtd_t: 4, lr: 0.0700, time: 90.2390
+Epoch: 96, Loss: 0.0153, intgrtd_t: 4, lr: 0.0700, time: 91.1757
+Epoch: 97, Loss: 0.0152, intgrtd_t: 4, lr: 0.0700, time: 92.1093
+Epoch: 98, Loss: 0.0152, intgrtd_t: 4, lr: 0.0700, time: 93.0470
+Epoch: 99, Loss: 0.0151, intgrtd_t: 4, lr: 0.0700, time: 93.9871
+Epoch: 100, Loss: 0.0151, intgrtd_t: 4, lr: 0.0700, time: 95.1148
+RAM memory % used: 3.0 i:0
+using previously processed test target data
+RAM memory % used: 3.0 i:0
+Epoch: 100, test_Loss: 0.0090,  intgrtd_t: 3, lr: 0.0700, time: 1.5199 ***
+Epoch: 101, Loss: 0.0150, intgrtd_t: 4, lr: 0.0700, time: 96.2125
+Epoch: 102, Loss: 0.0150, intgrtd_t: 4, lr: 0.0700, time: 97.1483
+Epoch: 103, Loss: 0.0150, intgrtd_t: 4, lr: 0.0700, time: 98.0808
+Epoch: 104, Loss: 0.0150, intgrtd_t: 4, lr: 0.0700, time: 99.0159
+Epoch: 105, Loss: 0.0150, intgrtd_t: 4, lr: 0.0700, time: 99.9501
+Epoch: 106, Loss: 0.0150, intgrtd_t: 4, lr: 0.0700, time: 100.8816
+Epoch: 107, Loss: 0.0150, intgrtd_t: 4, lr: 0.0700, time: 101.8174
+Epoch: 108, Loss: 0.0150, intgrtd_t: 4, lr: 0.0700, time: 102.7509
+Epoch: 109, Loss: 0.0150, intgrtd_t: 4, lr: 0.0700, time: 103.6887
+Epoch: 110, Loss: 0.0150, intgrtd_t: 4, lr: 0.0700, time: 104.6225
+Epoch: 111, Loss: 0.0149, intgrtd_t: 4, lr: 0.0700, time: 105.5571
+Epoch: 112, Loss: 0.0150, intgrtd_t: 4, lr: 0.0700, time: 106.4897
+Epoch: 113, Loss: 0.0149, intgrtd_t: 4, lr: 0.0700, time: 107.4255
+Epoch: 114, Loss: 0.0149, intgrtd_t: 4, lr: 0.0700, time: 108.3598
+Epoch: 115, Loss: 0.0149, intgrtd_t: 4, lr: 0.0700, time: 109.3008
+Epoch: 116, Loss: 0.0150, intgrtd_t: 4, lr: 0.0700, time: 110.2406
+Epoch: 117, Loss: 0.0149, intgrtd_t: 4, lr: 0.0700, time: 111.1771
+Epoch: 118, Loss: 0.0149, intgrtd_t: 4, lr: 0.0700, time: 112.1144
+Epoch: 119, Loss: 0.0149, intgrtd_t: 4, lr: 0.0700, time: 113.0507
+Epoch: 120, Loss: 0.0149, intgrtd_t: 4, lr: 0.0700, time: 113.9877
+Epoch: 121, Loss: 0.0148, intgrtd_t: 4, lr: 0.0700, time: 114.9340
+Epoch: 122, Loss: 0.0149, intgrtd_t: 4, lr: 0.0700, time: 115.8725
+Epoch: 123, Loss: 0.0148, intgrtd_t: 4, lr: 0.0700, time: 116.8102
+Epoch: 124, Loss: 0.0149, intgrtd_t: 4, lr: 0.0700, time: 117.7474
+Epoch: 125, Loss: 0.0149, intgrtd_t: 4, lr: 0.0700, time: 118.6890
+Epoch: 126, Loss: 0.0149, intgrtd_t: 4, lr: 0.0700, time: 119.6255
+Epoch: 127, Loss: 0.0149, intgrtd_t: 4, lr: 0.0700, time: 120.5608
+Epoch: 128, Loss: 0.0149, intgrtd_t: 4, lr: 0.0700, time: 121.4970
+Epoch: 129, Loss: 0.0149, intgrtd_t: 4, lr: 0.0700, time: 122.4350
+Epoch: 130, Loss: 0.0150, intgrtd_t: 4, lr: 0.0700, time: 123.3785
+Epoch: 131, Loss: 0.0149, intgrtd_t: 4, lr: 0.0700, time: 124.3160
+Epoch: 132, Loss: 0.0150, intgrtd_t: 4, lr: 0.0700, time: 125.2535
+Epoch: 133, Loss: 0.0149, intgrtd_t: 4, lr: 0.0700, time: 126.1885
+Epoch: 134, Loss: 0.0150, intgrtd_t: 4, lr: 0.0700, time: 127.1236
+Epoch: 135, Loss: 0.0149, intgrtd_t: 4, lr: 0.0700, time: 128.0575
+Epoch: 136, Loss: 0.0150, intgrtd_t: 4, lr: 0.0700, time: 128.9978
+Epoch: 137, Loss: 0.0149, intgrtd_t: 4, lr: 0.0700, time: 129.9350
+Epoch: 138, Loss: 0.0150, intgrtd_t: 4, lr: 0.0700, time: 130.8696
+Epoch: 139, Loss: 0.0149, intgrtd_t: 4, lr: 0.0700, time: 131.8044
+Epoch: 140, Loss: 0.0150, intgrtd_t: 4, lr: 0.0700, time: 132.7395
+Epoch: 141, Loss: 0.0150, intgrtd_t: 4, lr: 0.0700, time: 133.6782
+Epoch: 142, Loss: 0.0151, intgrtd_t: 4, lr: 0.0700, time: 134.6146
+Epoch: 143, Loss: 0.0150, intgrtd_t: 4, lr: 0.0700, time: 135.5483
+Epoch: 144, Loss: 0.0151, intgrtd_t: 4, lr: 0.0700, time: 136.4896
+Epoch: 145, Loss: 0.0151, intgrtd_t: 4, lr: 0.0700, time: 137.4294
+Epoch: 146, Loss: 0.0152, intgrtd_t: 4, lr: 0.0700, time: 138.3672
+Epoch: 147, Loss: 0.0151, intgrtd_t: 4, lr: 0.0700, time: 139.3050
+Epoch: 148, Loss: 0.0152, intgrtd_t: 4, lr: 0.0700, time: 140.2430
+Epoch: 149, Loss: 0.0152, intgrtd_t: 4, lr: 0.0700, time: 141.1795
+
+*********************************************************************************************
+                          experiment name: lit_train__lit_test_1d_trial
+*********************************************************************************************
+
+learning rate: 0.07
+niters: 201
+continuous_in: t
+Basis: None
+Number of Basis: 1
+stencil: 5
+train_batch_size: 30
+data loaded 
+Number of training graphs: 140
+Number of test graphs: 30
+Net(
+  (activation): LeakyReLU(negative_slope=0.2)
+  (basisfunc): Polynomial()
+  (conv): ModuleDict(
+    (1): GATConv(1, 1, heads=1)
+    (2): GATConv(1, 1, heads=1)
+    (3): linear(
+      (basisfunc): Polynomial()
+      (activation): LeakyReLU(negative_slope=0.2)
+    )
+    (4): linear(
+      (basisfunc): Polynomial()
+      (activation): LeakyReLU(negative_slope=0.2)
+    )
+  )
+)
++-----------------+------------+
+|     Modules     | Parameters |
++-----------------+------------+
+| conv.1.coeffs.1 |     64     |
+| conv.1.coeffs.2 |     33     |
+| conv.2.coeffs.1 |     64     |
+| conv.2.coeffs.2 |     33     |
+|  conv.3.coeffs  |    160     |
+|  conv.4.coeffs  |     33     |
++-----------------+------------+
+Total Trainable Params: 387
+
+*********************************************************************************************
+                          experiment name: lit_train__lit_test_1d_trial
+*********************************************************************************************
+
+learning rate: 0.07
+niters: 201
+continuous_in: t
+Basis: None
+Number of Basis: 1
+stencil: 5
+train_batch_size: 30
+data loaded 
+Number of training graphs: 140
+Number of test graphs: 30
+Net(
+  (activation): LeakyReLU(negative_slope=0.2)
+  (basisfunc): Polynomial()
+  (conv): ModuleDict(
+    (1): GATConv(1, 1, heads=1)
+    (2): GATConv(1, 1, heads=1)
+    (3): linear(
+      (basisfunc): Polynomial()
+      (activation): LeakyReLU(negative_slope=0.2)
+    )
+    (4): linear(
+      (basisfunc): Polynomial()
+      (activation): LeakyReLU(negative_slope=0.2)
+    )
+  )
+)
++-----------------+------------+
+|     Modules     | Parameters |
++-----------------+------------+
+| conv.1.coeffs.1 |     64     |
+| conv.1.coeffs.2 |     33     |
+| conv.2.coeffs.1 |     64     |
+| conv.2.coeffs.2 |     33     |
+|  conv.3.coeffs  |    160     |
+|  conv.4.coeffs  |     33     |
++-----------------+------------+
+Total Trainable Params: 387
+Epoch: 00, Loss: 0.2769, intgrtd_t: 4, lr: 0.0700, time: 7296.4598
+Epoch: 01, Loss: 0.2781, intgrtd_t: 4, lr: 0.0700, time: 7317.8255
+Epoch: 02, Loss: 0.2768, intgrtd_t: 4, lr: 0.0700, time: 7329.8923
+Epoch: 03, Loss: 0.2755, intgrtd_t: 4, lr: 0.0700, time: 7342.1245
+Epoch: 04, Loss: 0.2668, intgrtd_t: 4, lr: 0.0700, time: 7355.5682
+Epoch: 05, Loss: 0.2447, intgrtd_t: 4, lr: 0.0700, time: 7367.7997
+Epoch: 06, Loss: 0.2090, intgrtd_t: 4, lr: 0.0700, time: 7385.0940
+
+*********************************************************************************************
+                          experiment name: lit_train__lit_test_1d_trial
+*********************************************************************************************
+
+learning rate: 0.07
+niters: 201
+continuous_in: t
+Basis: None
+Number of Basis: 1
+stencil: 5
+train_batch_size: 30
+data loaded 
+Number of training graphs: 140
+Number of test graphs: 30
+Net(
+  (activation): LeakyReLU(negative_slope=0.2)
+  (basisfunc): Polynomial()
+  (conv): ModuleDict(
+    (1): GATConv(1, 1, heads=1)
+    (2): GATConv(1, 1, heads=1)
+    (3): linear(
+      (basisfunc): Polynomial()
+      (activation): LeakyReLU(negative_slope=0.2)
+    )
+    (4): linear(
+      (basisfunc): Polynomial()
+      (activation): LeakyReLU(negative_slope=0.2)
+    )
+  )
+)
++-----------------+------------+
+|     Modules     | Parameters |
++-----------------+------------+
+| conv.1.coeffs.1 |     64     |
+| conv.1.coeffs.2 |     33     |
+| conv.2.coeffs.1 |     64     |
+| conv.2.coeffs.2 |     33     |
+|  conv.3.coeffs  |    160     |
+|  conv.4.coeffs  |     33     |
++-----------------+------------+
+Total Trainable Params: 387
+Epoch: 00, Loss: 0.2769, intgrtd_t: 4, lr: 0.0700, time: 3.6099
+Epoch: 01, Loss: 0.2781, intgrtd_t: 4, lr: 0.0700, time: 6.5462
+Epoch: 02, Loss: 0.2768, intgrtd_t: 4, lr: 0.0700, time: 9.3923
+Epoch: 03, Loss: 0.2755, intgrtd_t: 4, lr: 0.0700, time: 12.4937
+Epoch: 04, Loss: 0.2668, intgrtd_t: 4, lr: 0.0700, time: 15.4538
+Epoch: 05, Loss: 0.2449, intgrtd_t: 4, lr: 0.0700, time: 18.6946
+Epoch: 06, Loss: 0.2093, intgrtd_t: 4, lr: 0.0700, time: 21.6935
+Epoch: 07, Loss: 0.1607, intgrtd_t: 4, lr: 0.0700, time: 24.6212
+Epoch: 08, Loss: 0.1412, intgrtd_t: 4, lr: 0.0700, time: 28.0016
+Epoch: 09, Loss: 0.1221, intgrtd_t: 4, lr: 0.0700, time: 30.9705
+Epoch: 10, Loss: 0.1117, intgrtd_t: 4, lr: 0.0700, time: 33.7268
+Epoch: 11, Loss: 0.1043, intgrtd_t: 4, lr: 0.0700, time: 37.0517
+Epoch: 12, Loss: 0.1117, intgrtd_t: 4, lr: 0.0700, time: 39.9637
+Epoch: 13, Loss: 0.0984, intgrtd_t: 4, lr: 0.0700, time: 42.9055
+Epoch: 14, Loss: 0.1019, intgrtd_t: 4, lr: 0.0700, time: 46.4107
+Epoch: 15, Loss: 0.0945, intgrtd_t: 4, lr: 0.0700, time: 49.4081
+Epoch: 16, Loss: 0.0925, intgrtd_t: 4, lr: 0.0700, time: 52.4654
+Epoch: 17, Loss: 0.0887, intgrtd_t: 4, lr: 0.0700, time: 55.7873
+Epoch: 18, Loss: 0.0833, intgrtd_t: 4, lr: 0.0700, time: 58.7541
+Epoch: 19, Loss: 0.0813, intgrtd_t: 4, lr: 0.0700, time: 61.6330
+Epoch: 20, Loss: 0.0760, intgrtd_t: 4, lr: 0.0700, time: 64.8942
+Epoch: 21, Loss: 0.0742, intgrtd_t: 4, lr: 0.0700, time: 68.2227
+Epoch: 22, Loss: 0.0699, intgrtd_t: 4, lr: 0.0700, time: 71.3941
+Epoch: 23, Loss: 0.0669, intgrtd_t: 4, lr: 0.0700, time: 74.6019
+Epoch: 24, Loss: 0.0638, intgrtd_t: 4, lr: 0.0700, time: 77.5969
+Epoch: 25, Loss: 0.0608, intgrtd_t: 4, lr: 0.0700, time: 80.8843
+Epoch: 26, Loss: 0.0579, intgrtd_t: 4, lr: 0.0700, time: 83.9662
+Epoch: 27, Loss: 0.0548, intgrtd_t: 4, lr: 0.0700, time: 86.7944
+Epoch: 28, Loss: 0.0520, intgrtd_t: 4, lr: 0.0700, time: 90.0816
+Epoch: 29, Loss: 0.0491, intgrtd_t: 4, lr: 0.0700, time: 93.0586
+Epoch: 30, Loss: 0.0467, intgrtd_t: 4, lr: 0.0700, time: 96.0359
+Epoch: 31, Loss: 0.0444, intgrtd_t: 4, lr: 0.0700, time: 99.4547
+Epoch: 32, Loss: 0.0422, intgrtd_t: 4, lr: 0.0700, time: 102.3674
+Epoch: 33, Loss: 0.0402, intgrtd_t: 4, lr: 0.0700, time: 105.3797
+Epoch: 34, Loss: 0.0385, intgrtd_t: 4, lr: 0.0700, time: 108.8094
+Epoch: 35, Loss: 0.0369, intgrtd_t: 4, lr: 0.0700, time: 111.7298
+Epoch: 36, Loss: 0.0353, intgrtd_t: 4, lr: 0.0700, time: 114.7118
+Epoch: 37, Loss: 0.0340, intgrtd_t: 4, lr: 0.0700, time: 117.9946
+Epoch: 38, Loss: 0.0327, intgrtd_t: 4, lr: 0.0700, time: 121.0310
+Epoch: 39, Loss: 0.0316, intgrtd_t: 4, lr: 0.0700, time: 124.2177
+Epoch: 40, Loss: 0.0307, intgrtd_t: 4, lr: 0.0700, time: 127.2719
+Epoch: 41, Loss: 0.0298, intgrtd_t: 4, lr: 0.0700, time: 130.2555
+Epoch: 42, Loss: 0.0289, intgrtd_t: 4, lr: 0.0700, time: 133.5920
+Epoch: 43, Loss: 0.0281, intgrtd_t: 4, lr: 0.0700, time: 136.8096
+Epoch: 44, Loss: 0.0274, intgrtd_t: 4, lr: 0.0700, time: 139.6150
+Epoch: 45, Loss: 0.0267, intgrtd_t: 4, lr: 0.0700, time: 142.9120
+Epoch: 46, Loss: 0.0261, intgrtd_t: 4, lr: 0.0700, time: 145.9135
+Epoch: 47, Loss: 0.0255, intgrtd_t: 4, lr: 0.0700, time: 148.8856
+Epoch: 48, Loss: 0.0249, intgrtd_t: 4, lr: 0.0700, time: 152.3499
+Epoch: 49, Loss: 0.0243, intgrtd_t: 4, lr: 0.0700, time: 155.1951
+Epoch: 50, Loss: 0.0239, intgrtd_t: 4, lr: 0.0700, time: 159.0261
+RAM memory % used: 18.4 i:0
+RAM memory % used: 18.3 i:0
+Epoch: 50, test_Loss: 0.0115,  intgrtd_t: 3, lr: 0.0700, time: 123.4415 ***
+Epoch: 51, Loss: 0.0233, intgrtd_t: 4, lr: 0.0700, time: 163.0053
+Epoch: 52, Loss: 0.0228, intgrtd_t: 4, lr: 0.0700, time: 166.4509
+Epoch: 53, Loss: 0.0224, intgrtd_t: 4, lr: 0.0700, time: 169.6219
+Epoch: 54, Loss: 0.0220, intgrtd_t: 4, lr: 0.0700, time: 173.3447
+Epoch: 55, Loss: 0.0216, intgrtd_t: 4, lr: 0.0700, time: 176.5519
+Epoch: 56, Loss: 0.0213, intgrtd_t: 4, lr: 0.0700, time: 179.9863
+Epoch: 57, Loss: 0.0209, intgrtd_t: 4, lr: 0.0700, time: 183.5370
+Epoch: 58, Loss: 0.0207, intgrtd_t: 4, lr: 0.0700, time: 186.8897
+Epoch: 59, Loss: 0.0204, intgrtd_t: 4, lr: 0.0700, time: 190.6076
+Epoch: 60, Loss: 0.0201, intgrtd_t: 4, lr: 0.0700, time: 193.9227
+Epoch: 61, Loss: 0.0198, intgrtd_t: 4, lr: 0.0700, time: 197.2512
+Epoch: 62, Loss: 0.0196, intgrtd_t: 4, lr: 0.0700, time: 200.7817
+Epoch: 63, Loss: 0.0193, intgrtd_t: 4, lr: 0.0700, time: 204.1497
+Epoch: 64, Loss: 0.0192, intgrtd_t: 4, lr: 0.0700, time: 207.9169
+Epoch: 65, Loss: 0.0189, intgrtd_t: 4, lr: 0.0700, time: 211.3920
+Epoch: 66, Loss: 0.0186, intgrtd_t: 4, lr: 0.0700, time: 214.9247
+Epoch: 67, Loss: 0.0183, intgrtd_t: 4, lr: 0.0700, time: 218.3998
+Epoch: 68, Loss: 0.0180, intgrtd_t: 4, lr: 0.0700, time: 221.5176
+Epoch: 69, Loss: 0.0177, intgrtd_t: 4, lr: 0.0700, time: 225.1768
+Epoch: 70, Loss: 0.0174, intgrtd_t: 4, lr: 0.0700, time: 228.4349
+Epoch: 71, Loss: 0.0172, intgrtd_t: 4, lr: 0.0700, time: 231.9566
+Epoch: 72, Loss: 0.0170, intgrtd_t: 4, lr: 0.0700, time: 235.3922
+Epoch: 73, Loss: 0.0168, intgrtd_t: 4, lr: 0.0700, time: 238.7342
+Epoch: 74, Loss: 0.0167, intgrtd_t: 4, lr: 0.0700, time: 242.4208
+Epoch: 75, Loss: 0.0166, intgrtd_t: 4, lr: 0.0700, time: 245.6897
+Epoch: 76, Loss: 0.0166, intgrtd_t: 4, lr: 0.0700, time: 248.9717
+Epoch: 77, Loss: 0.0165, intgrtd_t: 4, lr: 0.0700, time: 252.4790
+Epoch: 78, Loss: 0.0164, intgrtd_t: 4, lr: 0.0700, time: 255.8621
+Epoch: 79, Loss: 0.0164, intgrtd_t: 4, lr: 0.0700, time: 259.5314
+Epoch: 80, Loss: 0.0163, intgrtd_t: 4, lr: 0.0700, time: 262.8541
+Epoch: 81, Loss: 0.0162, intgrtd_t: 4, lr: 0.0700, time: 266.3273
+Epoch: 82, Loss: 0.0161, intgrtd_t: 4, lr: 0.0700, time: 269.8251
+Epoch: 83, Loss: 0.0160, intgrtd_t: 4, lr: 0.0700, time: 273.1921
+Epoch: 84, Loss: 0.0159, intgrtd_t: 4, lr: 0.0700, time: 276.6283
+Epoch: 85, Loss: 0.0158, intgrtd_t: 4, lr: 0.0700, time: 280.0300
+Epoch: 86, Loss: 0.0157, intgrtd_t: 4, lr: 0.0700, time: 283.4536
+Epoch: 87, Loss: 0.0157, intgrtd_t: 4, lr: 0.0700, time: 287.0262
+Epoch: 88, Loss: 0.0156, intgrtd_t: 4, lr: 0.0700, time: 290.3720
+Epoch: 89, Loss: 0.0156, intgrtd_t: 4, lr: 0.0700, time: 293.9581
+Epoch: 90, Loss: 0.0156, intgrtd_t: 4, lr: 0.0700, time: 297.3541
+Epoch: 91, Loss: 0.0156, intgrtd_t: 4, lr: 0.0700, time: 300.6351
+Epoch: 92, Loss: 0.0155, intgrtd_t: 4, lr: 0.0700, time: 304.2240
+Epoch: 93, Loss: 0.0155, intgrtd_t: 4, lr: 0.0700, time: 307.5733
+Epoch: 94, Loss: 0.0155, intgrtd_t: 4, lr: 0.0700, time: 311.1267
+Epoch: 95, Loss: 0.0155, intgrtd_t: 4, lr: 0.0700, time: 314.5253
+Epoch: 96, Loss: 0.0153, intgrtd_t: 4, lr: 0.0700, time: 317.9737
+Epoch: 97, Loss: 0.0153, intgrtd_t: 4, lr: 0.0700, time: 321.6068
+Epoch: 98, Loss: 0.0152, intgrtd_t: 4, lr: 0.0700, time: 325.0638
+Epoch: 99, Loss: 0.0152, intgrtd_t: 4, lr: 0.0700, time: 328.5023
+Epoch: 100, Loss: 0.0151, intgrtd_t: 4, lr: 0.0700, time: 332.3529
+
+*********************************************************************************************
+                          experiment name: lit_train__lit_test_1d_trial
+*********************************************************************************************
+
+learning rate: 0.07
+niters: 201
+continuous_in: t
+Basis: None
+Number of Basis: 1
+stencil: 5
+train_batch_size: 30
+data loaded 
+Number of training graphs: 140
+Number of test graphs: 30
+Net(
+  (activation): LeakyReLU(negative_slope=0.2)
+  (basisfunc): Polynomial()
+  (conv): ModuleDict(
+    (1): GATConv(1, 1, heads=1)
+    (2): GATConv(1, 1, heads=1)
+    (3): linear(
+      (basisfunc): Polynomial()
+      (activation): LeakyReLU(negative_slope=0.2)
+    )
+    (4): linear(
+      (basisfunc): Polynomial()
+      (activation): LeakyReLU(negative_slope=0.2)
+    )
+  )
+)
++-----------------+------------+
+|     Modules     | Parameters |
++-----------------+------------+
+| conv.1.coeffs.1 |     64     |
+| conv.1.coeffs.2 |     33     |
+| conv.2.coeffs.1 |     64     |
+| conv.2.coeffs.2 |     33     |
+|  conv.3.coeffs  |    160     |
+|  conv.4.coeffs  |     33     |
++-----------------+------------+
+Total Trainable Params: 387
+
+*********************************************************************************************
+                          experiment name: lit_train__lit_test_1d_trial
+*********************************************************************************************
+
+learning rate: 0.07
+niters: 1
+continuous_in: t
+Basis: None
+Number of Basis: 1
+stencil: 5
+train_batch_size: 30
+data loaded 
+Number of training graphs: 140
+Number of test graphs: 30
+Net(
+  (activation): LeakyReLU(negative_slope=0.2)
+  (basisfunc): Polynomial()
+  (conv): ModuleDict(
+    (1): GATConv(1, 1, heads=1)
+    (2): GATConv(1, 1, heads=1)
+    (3): linear(
+      (basisfunc): Polynomial()
+      (activation): LeakyReLU(negative_slope=0.2)
+    )
+    (4): linear(
+      (basisfunc): Polynomial()
+      (activation): LeakyReLU(negative_slope=0.2)
+    )
+  )
+)
++-----------------+------------+
+|     Modules     | Parameters |
++-----------------+------------+
+| conv.1.coeffs.1 |     64     |
+| conv.1.coeffs.2 |     33     |
+| conv.2.coeffs.1 |     64     |
+| conv.2.coeffs.2 |     33     |
+|  conv.3.coeffs  |    160     |
+|  conv.4.coeffs  |     33     |
++-----------------+------------+
+Total Trainable Params: 387
+Epoch: 00, Loss: 0.2769, intgrtd_t: 4, lr: 0.0700, time: 597.2157
+
+*********************************************************************************************
+                          experiment name: lit_train__lit_test_1d_trial
+*********************************************************************************************
+
+learning rate: 0.07
+niters: 2
+continuous_in: t
+Basis: None
+Number of Basis: 1
+stencil: 5
+train_batch_size: 30
+data loaded 
+Number of training graphs: 140
+Number of test graphs: 30
+Net(
+  (activation): LeakyReLU(negative_slope=0.2)
+  (basisfunc): Polynomial()
+  (conv): ModuleDict(
+    (1): GATConv(1, 1, heads=1)
+    (2): GATConv(1, 1, heads=1)
+    (3): linear(
+      (basisfunc): Polynomial()
+      (activation): LeakyReLU(negative_slope=0.2)
+    )
+    (4): linear(
+      (basisfunc): Polynomial()
+      (activation): LeakyReLU(negative_slope=0.2)
+    )
+  )
+)
++-----------------+------------+
+|     Modules     | Parameters |
++-----------------+------------+
+| conv.1.coeffs.1 |     64     |
+| conv.1.coeffs.2 |     33     |
+| conv.2.coeffs.1 |     64     |
+| conv.2.coeffs.2 |     33     |
+|  conv.3.coeffs  |    160     |
+|  conv.4.coeffs  |     33     |
++-----------------+------------+
+Total Trainable Params: 387
+Epoch: 00, Loss: 0.2769, intgrtd_t: 4, lr: 0.0700, time: 1.8278
+Epoch: 01, Loss: 0.2781, intgrtd_t: 4, lr: 0.0700, time: 3.8869
+RAM memory % used: 17.8 i:0
+
+*********************************************************************************************
+                          experiment name: lit_train__lit_test_1d_trial
+*********************************************************************************************
+
+learning rate: 0.07
+niters: 2
+continuous_in: t
+Basis: None
+Number of Basis: 1
+stencil: 5
+train_batch_size: 30
+data loaded 
+Number of training graphs: 140
+Number of test graphs: 30
+Net(
+  (activation): LeakyReLU(negative_slope=0.2)
+  (basisfunc): Polynomial()
+  (conv): ModuleDict(
+    (1): GATConv(1, 1, heads=1)
+    (2): GATConv(1, 1, heads=1)
+    (3): linear(
+      (basisfunc): Polynomial()
+      (activation): LeakyReLU(negative_slope=0.2)
+    )
+    (4): linear(
+      (basisfunc): Polynomial()
+      (activation): LeakyReLU(negative_slope=0.2)
+    )
+  )
+)
++-----------------+------------+
+|     Modules     | Parameters |
++-----------------+------------+
+| conv.1.coeffs.1 |     64     |
+| conv.1.coeffs.2 |     33     |
+| conv.2.coeffs.1 |     64     |
+| conv.2.coeffs.2 |     33     |
+|  conv.3.coeffs  |    160     |
+|  conv.4.coeffs  |     33     |
++-----------------+------------+
+Total Trainable Params: 387
+Epoch: 00, Loss: 0.2769, intgrtd_t: 4, lr: 0.0700, time: 1.8095
+Epoch: 01, Loss: 0.2781, intgrtd_t: 4, lr: 0.0700, time: 3.5462
+RAM memory % used: 17.8 i:0
+RAM memory % used: 17.9 i:0
+Epoch: 01, test_Loss: 0.1830,  intgrtd_t: 3, lr: 0.0700, time: 654.7853 ***
+================saved weights at 1 epoch================
