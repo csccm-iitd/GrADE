@@ -6,11 +6,18 @@
 
 ## Quick Start
 
-### Training Burgers1d
+### generate data
+```
+cd data/pde_2d
+python3 fenics_burger1d.py
+
+```
+
+### Training for Burgers 1d Equation
 
 ```
 cd src
-python Loop.py --epochs 100
+python Loop.py --prject_dir /path to this repository/GrADE  --epochs 800
 ```
 
 ## Citation
