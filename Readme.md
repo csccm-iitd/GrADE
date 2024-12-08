@@ -9,7 +9,7 @@
 ### generate data
 ```
 cd data/pde_2d
-python3 fenics_burger1d.py
+python3 fenics_burger1D.py
 
 ```
 
