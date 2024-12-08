@@ -1,4 +1,4 @@
-# HEADING
+# GrADE
 ### This repository contains the official implemention of the paper  GrADE: A graph based data-driven solver for time-dependent nonlinear partial differential equations
 ## 1D Viscous Burgers' Equation
 
