@@ -8,7 +8,7 @@
 
 ### generate data
 ```
-cd data/pde_2d
+cd data/pde_1d
 python3 fenics_burger1D.py
 
 ```
@@ -17,7 +17,7 @@ python3 fenics_burger1D.py
 
 ```
 cd src
-python Loop.py --prject_dir /path to this repository/GrADE  --epochs 800
+python Loop.py --prjct_dir /path to this repository/GrADE  --epochs 800
 ```
 
 ## Citation
