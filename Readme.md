@@ -2,7 +2,7 @@
 ### This repository contains the official implemention of the paper  GrADE: A graph based data-driven solver for time-dependent nonlinear partial differential equations
 ## 1D Viscous Burgers' Equation
 
-![1D Viscous Burgers' Equation](../img/burger1d/burger_eq.png "1D Viscous Burgers' Equation")
+![1D Viscous Burgers' Equation](./img/fig_c9.pdf "1D Viscous Burgers' Equation")
 
 ## Quick Start
 
