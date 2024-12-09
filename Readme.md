@@ -6,18 +6,25 @@
 
 ## Quick Start
 
+### set up a conda environment
+
+```
+conda create -n grade_env python=3.8
+conda activate grade_env
+sh install.sh
+```
+
 ### generate data
 ```
 cd data/pde_1d
 python3 fenics_burger1D.py
-
 ```
 
 ### Training for Burgers 1d Equation
 
 ```
 cd src
-python Loop.py --prjct_dir /<path_to_this_repository>/GrADE  --epochs 800
+python Loop.py --prjct_dir /<path_to_this_repository_on_your_system>/GrADE
 ```
 
 ## Citation
